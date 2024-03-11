@@ -26,9 +26,7 @@ MENU: str = '''
 employees: list = []  # a table of employees data
 menu_choice = ""
 
-if __name__ == "__main__":
-
-    Employee("aasd", "Adsfa", "2020-01-02", -1)    
+if __name__ == "__main__":  
 
     # Reads any data from file
     processing_classes.FileProcessor.read_data_from_file(FILE_NAME, employees)
